@@ -1,7 +1,7 @@
 import org.scalatra.ScalatraServlet
 
 
-class ExtremeStartup extends ScalatraServlet {
+class StartupWebServlet extends ScalatraServlet {
 
     def answer(question:String):String = {
         val PlusExpression = """.*what is the sum of (\d+) and (\d+)""".r
@@ -11,7 +11,7 @@ class ExtremeStartup extends ScalatraServlet {
                 return (Integer.parseInt(x) + Integer.parseInt(y)).toString
             case SantaClauseExpression() => // <-- Parens are important here!
                 return "Kris Kringle"
-            case _ => 
+            case _ =>
                 System.out.println("Unrecognized question: " + question)
                 return "scala team"
         }
@@ -19,11 +19,11 @@ class ExtremeStartup extends ScalatraServlet {
 
     get("/") {
       params("q") match {
-        case q:String => 
+        case q:String =>
             System.out.println("A request has arrived")
             answer(q)
         case _ => pass()
       }
     }
-    
+
 }

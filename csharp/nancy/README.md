@@ -1,6 +1,6 @@
 Welcome
 =======
-This is a solution for the Extreme Startup Workshop. It is a solution based on Nancy (http://www.nancyfx.org/).
+Startup web server based on Nancy (http://www.nancyfx.org/).
 
 
 Getting started

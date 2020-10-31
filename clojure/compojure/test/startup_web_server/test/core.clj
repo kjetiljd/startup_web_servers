@@ -1,5 +1,5 @@
-(ns extreme-startup.test.core
-  (:use [extreme-startup.core])
+(ns startup-web-server.test.core
+  (:use [startup-web-server.core])
   (:use [clojure.test]))
 
 (deftest replace-me ;; FIXME: write

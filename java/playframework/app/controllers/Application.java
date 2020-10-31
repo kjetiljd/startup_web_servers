@@ -10,7 +10,7 @@ import models.*;
 public class Application extends Controller {
 
     public static void answer(String q) {
-        renderText("Bodil Play");
+        renderText("Play");
     }
 
 }

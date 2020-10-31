@@ -1,10 +1,10 @@
 import org.scalatra.ScalatraServlet
 
 
-class ExtremeStartup extends ScalatraServlet {
+class StartupWebServlet extends ScalatraServlet {
 
     get("/") {
         "The server is running"
     }
-    
+
 }

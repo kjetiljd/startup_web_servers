@@ -2,13 +2,13 @@ var express = require("express");
 
 /* Reimplement this function to answer questions. */
 var answer = function(question, req, res) {
-    return "Bodil";
+    return "Yo";
 };
 
 var app = express.createServer();
 app.use(express.cookieParser());
 app.use(express.session({
-    "secret": "bodilpwnz"
+    "secret": "secretpwnz"
 }));
 
 app.get("/", function(req, res) {
@@ -20,4 +20,3 @@ app.get("/", function(req, res) {
 
 app.listen(1337, "0.0.0.0");
 console.log("Server running on http://0.0.0.0:1337/");
-

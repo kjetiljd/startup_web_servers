@@ -1,6 +1,4 @@
-This example is for players of Extreme Startup who can't get an HTTP
-server to run in their prefered development environment. It shows how
-to do HTTP listening,
+This example an HTTP server It shows how to do HTTP listening,
 [definite clause grammar](http://www.pathwayslms.com/swipltuts/dcg/)
 in SWI-Prolog. Prolog uses definite clause grammars instead of regular
 expressions.

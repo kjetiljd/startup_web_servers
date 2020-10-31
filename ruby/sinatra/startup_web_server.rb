@@ -6,5 +6,5 @@ configure do
 end
 
 get '/' do
-  "johannes"
+  "hello"
 end

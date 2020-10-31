@@ -1,4 +1,4 @@
-(ns extremestartup.rules
+(ns startupwebserver.rules
   (:use clojure.test))
 
 (defmacro testrule
@@ -14,4 +14,3 @@
 
 (testrule "bird" "ohai bird!"
           "pig" "ohai pig!")
-

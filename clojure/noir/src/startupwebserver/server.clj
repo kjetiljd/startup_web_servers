@@ -1,7 +1,7 @@
-(ns extremestartup.server
+(ns startupwebserver.server
   (:use noir.core)
   (:require [noir.server :as server]
-            [extremestartup.rules :as rules]))
+            [startupwebserver.rules :as rules]))
 
 (defpage "/" {:keys [q]} (rules/dispatcher q))
 
@@ -9,5 +9,4 @@
   (let [mode (keyword (or (first m) :prod))
         port (Integer. (get (System/getenv) "PORT" "8080"))]
     (server/start port {:mode mode
-                        :ns 'extreme-startup})))
-
+                        :ns 'startup-web-server})))

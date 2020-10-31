@@ -1,3 +1,5 @@
+Copyright (c) 2020, kjetiljd
+
 Copyright (c) 2013, Steria AS
 
 All rights reserved.

@@ -1,3 +1,3 @@
 - Install Groovy (http://groovy-lang.org/Installing+Groovy)
-- Run 'groovy extreme_startup.groovy' or just './extreme_startup.groovy'
+- Run 'groovy startup_web_server.groovy' or just './startup_web_server.groovy'
 - Go to http://localhost:9090/foo.groovy?who=Ronny

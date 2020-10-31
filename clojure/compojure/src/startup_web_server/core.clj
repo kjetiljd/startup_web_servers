@@ -1,4 +1,4 @@
-(ns extreme-startup.core
+(ns startup-web-server.core
   (:use compojure.core)
   (:require [compojure.route :as route]
             [compojure.handler :as handler]))

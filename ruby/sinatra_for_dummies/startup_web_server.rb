@@ -1,11 +1,11 @@
 require 'rubygems'
 require 'sinatra'
 
-class ExtremeStartup
+class StartupWebServer
 
   def answer(q)
     if q =~ /the sum of (\d+) and (\d+)/
-      return ($1.to_i + $2.to_i).to_s 
+      return ($1.to_i + $2.to_i).to_s
     elsif q =~ /what's santa clause's real name/
       return "Kris Kringle"
     else
@@ -15,7 +15,7 @@ class ExtremeStartup
 
 end
 
-server = ExtremeStartup.new
+server = StartupWebServer.new
 
 configure do
   set :port, 1337

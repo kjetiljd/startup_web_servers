@@ -2,9 +2,9 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class ExtremeStartupTest {
+public class StartupWebServerTest {
 
-    private final ExtremeStartup server = new ExtremeStartup("spark team");
+    private final StartupWebServer server = new StartupWebServer("spark team");
 
     @Test
     public void should_accept_missing_input() {

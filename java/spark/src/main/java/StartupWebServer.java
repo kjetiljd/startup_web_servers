@@ -4,11 +4,11 @@ import java.util.regex.Pattern;
 import static spark.Spark.*;
 import spark.*;
 
-public class ExtremeStartup {
+public class StartupWebServer {
 
     private final String teamName;
 
-    public ExtremeStartup(String teamName) {
+    public StartupWebServer(String teamName) {
         this.teamName = teamName;
     }
 
@@ -23,7 +23,7 @@ public class ExtremeStartup {
     }
 
     public static void main(String[] args) {
-        final ExtremeStartup server = new ExtremeStartup("team name");
+        final StartupWebServer server = new StartupWebServer("team name");
         setPort(1337);
         get(new Route("/") {
 

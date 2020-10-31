@@ -1,4 +1,4 @@
-name := "extreme_startup"
+name := "startup_web_server"
 
 version := "1.0"
 
@@ -8,4 +8,3 @@ libraryDependencies ++= Seq(
 	"org.scalatra" %% "scalatra" % "2.0.3",
 	"org.eclipse.jetty" % "jetty-webapp" % "7.4.5.v20110725",
 	"org.scalatest" %% "scalatest" % "1.6.1")
-
